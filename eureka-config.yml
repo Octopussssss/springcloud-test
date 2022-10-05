@@ -14,7 +14,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:7002/eureka/
+      defaultZone: http://127.0.0.1:7002/eureka/
     fetch-registry: false
     register-with-eureka: false
   instance:
@@ -32,7 +32,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:7002/eureka/
+      defaultZone: http://http://127.0.0.1:7002/eureka/
     fetch-registry: false
     register-with-eureka: false
   instance:
